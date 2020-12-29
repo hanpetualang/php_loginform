@@ -1,0 +1,129 @@
+body{
+  background-color: #3598dc;
+}
+
+.main{
+  background-color: azure;
+  font-family: fantasy;
+  display: block;
+  width: 550px;
+  height: 500px;
+  border: 5px solid white;
+  margin: 150px auto;
+  box-sizing: border-box;
+  font-size: 18px;
+  box-shadow: 0 0 20px black;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  justify-content: center;
+}
+.main #header{
+  color: grey;
+  box-sizing: border-box;
+  margin: 0px auto;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: center;
+}
+.main input{
+  box-sizing: border-box;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 400px;
+  height: 40px;
+  font-size: 18px;
+  padding: 5px;
+  background-color: #f2f2f2;
+  box-shadow: none;
+}
+.main #error{
+  margin-top: 20px;
+  width: 400px;
+  font-size: 16px;
+  color: red;
+  font-weight: normal;
+}
+.main .button{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  width: 400px;
+}
+.main .button button{
+  font-family: fantasy;
+  font-size: 14px;
+  width: 65px;
+  background-color: black;
+  font-weight: bold;
+  color: white;
+  padding: 5px 10px;
+  background-color: #3598dc;
+  width: 400px;
+  height: 40px;
+}
+.main .button button:hover{
+  background-color: white;
+  color: grey;
+  cursor: pointer;
+}
+.addacc{
+  font-family: fantasy;
+  display: flex;
+  justify-content: center;
+  width: 550px;
+  height: 20px;
+  margin: 0px auto;
+  color: azure;
+  background-color: red;
+  background-color: #2598dc;
+}
+.addacc a{
+  color: azure;
+}
+.addacc:active{
+  color: white;
+}
+
+
+.welcome{
+  font-family:fantasy;
+  border-radius: 3%;
+  padding: 40px;
+  box-sizing: border-box;
+  display: block;
+  justify-content: center;
+  width: 400px;
+  height: 300px;
+  margin: 150px auto;
+  font-size: 18px;
+}
+.welcome h1{
+  color: white;
+}
+.welcome #btn{
+  width: 80px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 40px;
+  background-color: black;
+  height: 30px;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+.welcome #btn a{
+  height: 30px;
+  width: 80px;
+  color: white;
+  margin-top: 30px;
+  text-decoration: none;
+}
+#btn a:active{
+  color: white;
+  text-decoration: none;
+}
+#btn a:hover{
+  text-decoration: none;
+  color: red;
+}
