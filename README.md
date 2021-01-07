@@ -6,6 +6,8 @@ Don't forget to edit connection.php file following your databae settings
 Give better view and function with Bootstrap 5.0.0 framework
 The welcome page will redirect to login page if not logged in
 
+7 Jan 2021
+Updated main view (incomplete progress)
 
 - Farhan Ario Altariq
 - Universitas Ahmad Dahlan
