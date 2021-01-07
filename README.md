@@ -7,7 +7,7 @@ Give better view and function with Bootstrap 5.0.0 framework
 The welcome page will redirect to login page if not logged in
 
 7 Jan 2021
-Updated main view (incomplete progress)
+Updated - main view (in progress)
 
 - Farhan Ario Altariq
 - Universitas Ahmad Dahlan
