@@ -53,7 +53,7 @@
             //adding new data to database
             mysqli_query($connect, $insert);
             echo "<div class='alert alert-success'> Account created successfully,  &nbsp;";
-            echo "<a href=welcome.php>Go to site</a>";
+            echo "<a href=index.php>Please Login</a>";
             echo "</div>";
             exit;
           }
