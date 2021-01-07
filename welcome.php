@@ -45,8 +45,8 @@
         <b style="font-size:21px"> Reserve a place </b>
         <br><br>
       </div>
-      <form>
-        <input type="text" name="username" value="<?php$username?>" hidden>
+      <form action="proccessdata.php" method="POST">
+        <input type="text" name="username" value="<?php echo $username?>" hidden>
         <div class="form-group">
           <label for="exampleInputEmail1">License Plate</label>
           <input type="text" name="licenseplate" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -63,8 +63,13 @@
           <br>
         </div>
         <div class="form-group">
+          <label for="exampleInputEmail1">Vehicle Production Year</label>
+          <input type="text" name="produced" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <br>
+        </div>
+        <div class="form-group">
           <label for="exampleInputPassword1">Parking Location (Select ID)</label>
-          <input type="number" name="duration" min="0" class="form-control" id="exampleInputPassword1">
+          <input type="number" name="parkinglocation" min="0" class="form-control" id="exampleInputPassword1">
           <br>
         </div>
         <div class="form-group">
